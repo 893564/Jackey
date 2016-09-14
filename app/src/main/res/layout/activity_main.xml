@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#001"
+    android:orientation="vertical"
+    tools:context="com.example.android.jackey.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/jackey"
+        android:scaleType="centerCrop"
+        android:layout_weight="0.6"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Hideout Jackey"
+        android:textSize="20sp"
+        android:textColor="#f44336"
+        android:textStyle="bold"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="'Hideout Jackey' is a lady's clothes store.Allways Fashionable and the latest deals on a daily basis!!"
+        android:textSize="16sp"
+        android:textColor="#ffff"
+        android:layout_weight="0.15"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="open 10:00am            close 19:30pm"
+        android:textColor="#ffff"
+        android:textSize="16sp"
+        android:layout_weight="0.1"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Phone:092-939-5633"
+        android:textSize="16sp"
+        android:textColor="#ffff"
+        android:layout_weight="0.1"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Twitter:https://twitter.com/jackey4444"
+        android:textSize="16sp"
+        android:textColor="#ffff"
+        android:layout_weight="0.1"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Adress:237-1 Chojabaru, Kasuya, Kasuya District, Fukuoka Prefecture, Japan"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:layout_weight="0.2"
+        android:gravity="center"/>
+
+</LinearLayout>
